@@ -1,0 +1,86 @@
+.container-gift {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 0 20px;
+    background-color: #fbfdfd;
+    background-image: url("https://cartzio.vercel.app/static/media/bg3.ac28474effac8a3f8537.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+    color: #4c68b5;
+    margin-top: 0;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+}
+
+.content-gift {
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 600px;
+    z-index: 2;
+    position: relative;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+.heading2 {
+    font-size: 2.5rem;
+    font-weight: normal;
+    margin: 0;
+    color: black;
+}
+
+.heading1 {
+    font-size: 3rem;
+    font-weight: bold;
+    margin: 10px 0;
+    color: black;
+}
+
+.paragraph {
+    font-size: 1.25rem;
+    color: black;
+    margin-bottom: 20px;
+}
+
+.g-home-link {
+    display: inline-block;
+    padding: 12px 24px;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #000;
+    border-radius: 30px;
+    text-decoration: none;
+}
+
+.g-home-link:hover {
+    background-color: rgb(95, 84, 84);
+}
+
+@media (max-width: 768px) {
+    .container-gift {
+        height: auto;
+        padding: 40px 20px;
+        background-position: top center;
+    }
+
+    .content {
+        max-width: 100%;
+        background-color: rgba(255, 255, 255, 0.9);
+    }
+
+    .heading2 {
+        font-size: 1.75rem;
+    }
+
+    .heading1 {
+        font-size: 2rem;
+    }
+
+    .paragraph {
+        font-size: 1rem;
+    }
+}
